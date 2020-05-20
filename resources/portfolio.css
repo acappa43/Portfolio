@@ -1,0 +1,12 @@
+#table li{
+    background-color: aqua;
+    display:inline-block;
+    position: fixed;
+    padding: 10px;
+    margin: 10px;
+}
+body{
+    display: block;
+    position: relative;
+    font-family: 'Roboto', sans-serif;;
+}
