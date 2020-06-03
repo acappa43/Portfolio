@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 #table li{
     background-color: aqua;
     display:inline-block;
@@ -6,7 +9,8 @@
     margin: 10px;
 }
 body{
-    display: block;
-    position: relative;
-    font-family: 'Roboto', sans-serif;;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: sans-serif;
 }
