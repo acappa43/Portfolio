@@ -1,16 +1,39 @@
-*{
-    box-sizing: border-box;
-}
-#table li{
-    background-color: aqua;
-    display:inline-block;
+nav{
+    background-color: #e6bf54;
+    opacity: 80%;
     position: fixed;
-    padding: 10px;
-    margin: 10px;
+    width: 100%;
+    display: inline-block;
 }
+nav ul{
+    text-align: center;
+    list-style: none;
+    color: rgb(238, 76, 27);
+    padding: 5px;
+}
+nav ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin-left: 100px;
+    border-right: 2px;
+    border: 2px;
+}
+#projects{
+    padding-top: 50px;
+}
+.name{
+    text-align: left;
+    margin-top: 40px;
+    padding: 10px;
+}
+
 body{
-    background-image: url(background.jpg);
+    background-image: url("./nyc.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
-    font-family: sans-serif;
+    font-family: 'Roboto';
+    background-size: 100%;
+}
+footer{
+    text-align: center;
 }
